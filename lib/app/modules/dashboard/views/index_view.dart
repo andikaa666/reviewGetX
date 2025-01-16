@@ -13,7 +13,7 @@ class IndexView extends GetView {
  Widget build(BuildContext context) {
     // Menginisialisasi controller untuk Dashboard menggunakan GetX
     DashboardController controller = Get.put(DashboardController());
-    
+      
     // Membuat ScrollController untuk mengontrol scroll pada ListView
     final ScrollController scrollController = ScrollController();
     

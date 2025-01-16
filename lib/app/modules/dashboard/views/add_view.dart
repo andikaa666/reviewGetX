@@ -10,13 +10,13 @@ class AddView extends GetView {
   const AddView({super.key});
   @override
   Widget build(BuildContext context) {
-    // Nih, bikin controller buat ngurusin dashboard pake Get.put
+   
     DashboardController controller = Get.put(DashboardController());
     return Scaffold(
-      // AppBar nih, buat header atas. Judulnya "Add Your Event", terus ada di tengah biar estetik
+      
       appBar: AppBar(
-        title: const Text('Add Your Event'), // Judul biar kelihatan niat
-        centerTitle: true, // Tengahin judul, biar vibes-nya enak
+        title: const Text('Add Your Event'), 
+        centerTitle: true,
         backgroundColor: HexColor('#feeee8'), // Warna pastel biar soft
       ),
       // Latar belakang layar, warnanya pastel juga. Matching dong!

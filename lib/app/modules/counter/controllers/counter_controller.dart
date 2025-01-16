@@ -8,7 +8,8 @@ class CounterController extends GetxController {
   void onInit() {
     super.onInit();
   }
-
+   
+   
   @override
   void onReady() {
     super.onReady();

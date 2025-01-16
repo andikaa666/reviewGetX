@@ -10,7 +10,7 @@ class ProfileView extends GetView {
       appBar: AppBar(
         title: const Text('ProfileView'),
         centerTitle: true,
-      ),
+      ),  
       body: const Center(
         child: Text(
           'ProfileView is working',

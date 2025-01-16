@@ -20,10 +20,12 @@ class HomeController extends GetxController {
       : Get.off(() => const DashboardView()),
 );
   }
-
+  
   @override
   void onClose() {
     _pindah.cancel();
     super.onClose();
   }
 }
+   
+   

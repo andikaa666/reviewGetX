@@ -10,7 +10,7 @@ class EventDetailView extends GetView {
       appBar: AppBar(
         title: const Text('EventDetailView'),
         centerTitle: true,
-      ),
+      ),  
       body: const Center(
         child: Text(
           'EventDetailView is working',

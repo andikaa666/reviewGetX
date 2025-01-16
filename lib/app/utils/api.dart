@@ -5,4 +5,4 @@ class BaseUrl {
   static String events = 'https://praujikom.smkassalaambandung.sch.id/api/events';
   static String yourEvent = 'https://praujikom.smkassalaambandung.sch.id/api/your-event';
 
-}
+} 
