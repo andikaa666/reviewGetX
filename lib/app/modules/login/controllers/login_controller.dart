@@ -38,7 +38,7 @@ class LoginController extends GetxController {
     if (response.statusCode == 200) { //struktur if-else untuk menentukan tindakan yang harus diambil berdasarkan respons yang diterima dari permintaan HTTP. Jika nilai kunci success dalam response.body adalah true, maka aplikasi menulis token akses yang diperoleh dari respons ke penyimpanan lokal menggunakan authToken.write().
       authToken.write('token', response.body['token']); //menyimpan token akses ke penyimpanan lokal dengan menggunakan authToken.write()
       // authToken.write('full_name', Jsonresponse['full_name']);
-      Get.offAll(() => const DashboardView());
+      // Get.offAll(() => const DashboardView());
     } else { //Jika tidak, aplikasi menampilkan pesan kesalahan menggunakan Get.snackbar()
       Get.snackbar(
         'Error', //parameter pesan yang ditampilkan dalam snackbar
